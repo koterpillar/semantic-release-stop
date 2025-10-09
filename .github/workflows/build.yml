@@ -22,6 +22,7 @@ jobs:
         run: yarn test
 
   publish:
+    name: Publish
     needs:
       - test
     runs-on: ubuntu-latest
