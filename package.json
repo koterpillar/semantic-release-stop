@@ -9,11 +9,18 @@
   },
   "license": "GPL-3.0-or-later",
   "author": "Alexey Kotlyarov <a@koterpillar.com>",
+  "main": "out/index.js",
+  "files": [
+    "out/"
+  ],
   "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "yarn build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
     "@tsconfig/node22": "^22.0.2",
+    "@types/node": "^22.18.8",
     "semantic-release": "^24.2.9",
     "typescript": "^5.9.3"
   }
