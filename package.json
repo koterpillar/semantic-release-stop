@@ -1,6 +1,6 @@
 {
   "name": "semantic-release-stop",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "Semantic Release plugin to halt the release without undoing already performed actions",
   "homepage": "https://github.com/koterpillar/semantic-release-stop",
   "repository": {
