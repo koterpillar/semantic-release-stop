@@ -15,7 +15,7 @@
   ],
   packageRules: [
     {
-      matchPackageNames: ["actions/node-versions"],
+      matchPackageNames: ["actions/node-versions", "node"],
       extractVersion: "^(?<version>v\\d+)",
     },
   ],
