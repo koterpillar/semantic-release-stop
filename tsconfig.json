@@ -1,0 +1,11 @@
+{
+  "extends": "@tsconfig/node22",
+  "include": ["src"],
+  "compilerOptions": {
+    "allowJs": false,
+    "baseUrl": ".",
+    "noUnusedLocals": true,
+    "types": ["node"],
+    "outDir": "out"
+  }
+}
