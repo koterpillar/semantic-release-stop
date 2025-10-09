@@ -6,6 +6,6 @@
     "baseUrl": ".",
     "noUnusedLocals": true,
     "types": ["node"],
-    "outDir": "out"
+    "outDir": "dist"
   }
 }
