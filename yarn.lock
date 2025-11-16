@@ -712,10 +712,10 @@
   resolved "https://packages.atlassian.com/api/npm/npm-remote/@sindresorhus/merge-streams/-/merge-streams-4.0.0.tgz#abb11d99aeb6d27f1b563c38147a72d50058e339"
   integrity sha512-tlqY9xq5ukxTUZBmoOp+m61cqwQD5pHJtFY3Mn8CA8ps6yghLH/Hw8UPdqg4OLmFW3IFlcXnQNmo/dh8HzXYIQ==
 
-"@tsconfig/node22@^22.0.3":
-  version "22.0.3"
-  resolved "https://registry.yarnpkg.com/@tsconfig/node22/-/node22-22.0.3.tgz#dc6753a12faec79727ba8e33cebba7717f6486c1"
-  integrity sha512-9UTUkYWI58+MiZhwcQWx2TNZbzkGRss9SCyjrSYeqkMIDYq8jv2FSRknrLOjsRmcYFUsYj79m/bgQYSD/yiRxw==
+"@tsconfig/node22@^22.0.4":
+  version "22.0.4"
+  resolved "https://registry.yarnpkg.com/@tsconfig/node22/-/node22-22.0.4.tgz#7a8e21964ca4a9a4edac23d492ecef18f2d2ca25"
+  integrity sha512-GI0gtqW+8Bz9UMOsOO1z3w1ebspOkVjSyeJ18r96LW82OOZenpzWXti/+f/MgPy1hqXTIRXn8QpGIOYHgKkTnQ==
 
 "@tufjs/canonical-json@2.0.0":
   version "2.0.0"
