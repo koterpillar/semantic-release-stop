@@ -3,9 +3,9 @@
   "include": ["src"],
   "compilerOptions": {
     "allowJs": false,
-    "baseUrl": ".",
     "noUnusedLocals": true,
     "types": ["node"],
+    "rootDir": "src",
     "outDir": "dist"
   }
 }
