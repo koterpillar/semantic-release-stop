@@ -1,4 +1,4 @@
-import { PrepareContext } from "semantic-release";
+import type { PrepareContext } from "semantic-release";
 
 export function prepare(_pluginConfig: unknown = {}, context: PrepareContext): void {
   const { logger } = context;

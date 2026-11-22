@@ -1,5 +1,5 @@
 import { describe, it, expect, vi, beforeEach, afterEach } from "vitest";
-import { prepare } from "../src/index";
+import { prepare } from "../src/index.js";
 import type { PrepareContext } from "semantic-release";
 
 describe("prepare", () => {
