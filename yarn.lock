@@ -631,7 +631,7 @@
   resolved "https://registry.yarnpkg.com/@standard-schema/spec/-/spec-1.1.0.tgz#a79b55dbaf8604812f52d140b2c9ab41bc150bb8"
   integrity sha512-l2aFy5jALhniG5HgqrD6jXLi/rUWrKvqN/qJx6yoJsgKhblVd+iqqU4RCXavm/jPityDo5TCvKMnpjKnOriy0w==
 
-"@tsconfig/node26@^26.0.0":
+"@tsconfig/node26@^26.0.2":
   version "26.0.2"
   resolved "https://registry.yarnpkg.com/@tsconfig/node26/-/node26-26.0.2.tgz#cd97b507c5fcf751a3ee39253d78d2e915cfccd3"
   integrity sha512-RIBSoNGQxUQ8r4hSrEzS6TrUneoKaCuX6BjL4zF3wqttGq2w06zCea4d8P1gRvM/HZyDT1FQJ8trZSyy/63oMg==
