@@ -9,9 +9,10 @@
   },
   "license": "GPL-3.0-or-later",
   "author": "Alexey Kotlyarov <a@koterpillar.com>",
+  "type": "module",
   "main": "dist/index.js",
   "files": [
-    "dist/"
+    "dist/index.js"
   ],
   "scripts": {
     "build": "tsc",
@@ -26,5 +27,6 @@
     "typescript": "^7.0.2",
     "vite": "^8.3.8",
     "vitest": "^5.1.1"
-  }
+  },
+  "packageManager": "yarn@4.19.0"
 }

@@ -17,7 +17,7 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - name: Install dependencies
-        run: yarn
+        run: yarn install --immutable
       - name: Test
         run: yarn test
 
@@ -40,13 +40,11 @@ jobs:
         with:
           node-version-file: '.nvmrc'
       - name: Install dependencies
-        run: yarn
+        run: yarn install --immutable
       - name: Build
         run: yarn build
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          npx \
-            --package semantic-release@26 \
-            semantic-release
+          yarn exec semantic-release
